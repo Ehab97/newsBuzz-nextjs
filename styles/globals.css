@@ -117,6 +117,16 @@ footer,nav{
   right: 100px;
   
 }
+.spinner-border {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  vertical-align: text-bottom;
+  border: .25em solid;
+  border-right: .25em solid transparent;
+  border-radius: 50%;
+  animation: spinner-border .75s linear infinite;
+}
 @keyframes scroll {
   95% { top: -100%; }
   100% { top:0; }
